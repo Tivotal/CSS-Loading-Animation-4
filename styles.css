@@ -21,7 +21,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, #0005);
+  -webkit-box-reflect: below 0 
+     linear-gradient(transparent, transparent, #0005);
 }
 
 .loader {
@@ -38,7 +39,8 @@ body {
   content: "";
   width: 50%;
   height: 100%;
-  background: linear-gradient(to top, transparent, rgba(0, 255, 249, 0.4));
+  background: linear-gradient(to top, transparent, 
+              rgba(0, 255, 249, 0.4));
   top: 0;
   left: 0;
   background-size: 100px 100px;
@@ -68,9 +70,16 @@ body {
   background: #00fff9;
   border-radius: 50%;
   z-index: 10;
-  box-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9,
-    0 0 40px #00fff9, 0 0 50px #00fff9, 0 0 60px #00fff9, 0 0 70px #00fff9,
-    0 0 80px #00fff9, 0 0 90px #00fff9, 0 0 100px #00fff9;
+  box-shadow: 0 0 10px #00fff9,
+    0 0 20px #00fff9,
+    0 0 30px #00fff9,
+    0 0 40px #00fff9,
+    0 0 50px #00fff9,
+    0 0 60px #00fff9,
+    0 0 70px #00fff9,
+    0 0 80px #00fff9,
+    0 0 90px #00fff9,
+    0 0 100px #00fff9;
 }
 
 @keyframes loadAnim {
